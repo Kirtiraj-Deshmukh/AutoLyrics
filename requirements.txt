@@ -1,0 +1,9 @@
+torch
+torchaudio
+transformers
+datasets
+peft
+bitsandbytes
+jiwer
+gradio
+accelerate
