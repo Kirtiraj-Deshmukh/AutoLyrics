@@ -36,8 +36,8 @@ The training lifecycle was explicitly engineered for constrained compute budgets
 
 ## Repository Structure
 * `config.py`: Contains hyperparameters, paths, and model configurations.
-* `data_processing.py`: Handles dataset loading, feature extraction, and custom data collation.
-* `training.py`: Implements the PEFT/LoRA adapter injection and the Seq2Seq training loop.
+* `data_prep.py`: Handles dataset loading, feature extraction, and custom data collation.
+* `model_trainer.py`: Implements the PEFT/LoRA adapter injection and the Seq2Seq training loop.
 * `evaluation.py`: Computes WER and CER metrics against the baseline.
 * `interface.py`: Deploys a Gradio web UI with side-by-side inference generation.
 * `main.py`: The orchestration script to execute the end-to-end pipeline.
